@@ -90,10 +90,7 @@ body {
   line-height: 24px;
   letter-spacing: 1.1em;
 }
-.bike-slider {
-}
-.bike-slider__item {
-}
+
 .bike__list {
   margin-top: 25px;
   display: flex;
@@ -146,4 +143,33 @@ body {
 .slick-active button,
 .slick-dots button:hover {
   background-color: #ff4040;
+}
+
+.section__info {
+  padding-bottom: 150px;
+}
+
+.info__inner {
+  display: flex;
+}
+.info__img {
+  margin-right: 60px;
+  object-fit: cover;
+}
+.info__list {
+  max-width: 490px;
+}
+.info__item:not(:last-child) {
+  margin-bottom: 50px;
+}
+.info__item-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.info__item-text {
+  font-weight: 400;
+  max-width: 450px;
 }
