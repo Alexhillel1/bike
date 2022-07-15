@@ -173,3 +173,58 @@ body {
   font-weight: 400;
   max-width: 450px;
 }
+
+.char {
+  padding-bottom: 150px;
+}
+.char__title-main {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+
+  margin-bottom: 40px;
+}
+
+.char__title {
+  padding: 2px 0 3px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  /* белый */
+  background-color: #131313;
+
+  color: #ffffff;
+}
+.char__inner {
+  display: flex;
+}
+.char__items {
+  max-width: 570px;
+  margin-right: 60px;
+}
+.char__list {
+}
+
+.char__list:not(:last-child) {
+  padding-bottom: 30px;
+}
+.char__line {
+  display: flex;
+  margin-top: 5px;
+}
+.char__name {
+  width: 285px;
+  padding-right: 25px;
+}
+.char__descr {
+  width: 285px;
+}
+
+.char__img {
+  align-self: center;
+}
