@@ -1,0 +1,149 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #131313;
+}
+
+.haeder {
+}
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  margin-right: 70px;
+}
+.menu__list {
+  display: flex;
+  gap: 10px;
+}
+
+.menu__link {
+  text-transform: uppercase;
+  padding: 43px 20px;
+  transition: all 0.3s;
+}
+
+.menu__link:hover {
+  background-color: #131313;
+  color: #fff;
+}
+/*Header-end*/
+.section__bike {
+  padding: 100px 0 150px;
+}
+.bike__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.bike__column:first-child {
+  margin-right: 30px;
+}
+.bike__column:last-child {
+  max-width: 630px;
+}
+.bike__title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  margin-top: 60px;
+  margin-bottom: 5px;
+}
+.bike__subtitle {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+  /* серый */
+
+  color: #6f6f6f;
+  margin-bottom: 60px;
+}
+.bike__text {
+  max-width: 420px;
+}
+
+.bike__text-title {
+  max-width: 420px;
+  margin-bottom: 20px;
+}
+
+.bike__link {
+  text-align: center;
+  display: inline-block;
+  margin-top: 80px;
+  background-color: #131313;
+  color: #fff;
+  padding: 28px 81px;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1.1em;
+}
+.bike-slider {
+}
+.bike-slider__item {
+}
+.bike__list {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+.bike__item {
+  max-width: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 58px;
+}
+
+.bike__list-num {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.bike__list-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  margin: auto 0;
+}
+
+.bike-slider .slick-dots {
+  right: 0;
+  top: 50px;
+}
+
+.slick-dots {
+  position: absolute;
+}
+
+.slick-dots li + li {
+  padding-top: 10px;
+}
+
+.slick-dots button {
+  font-size: 0; /*что-бы убрать цифры*/
+  background-color: #131313;
+  width: 2px;
+  height: 25px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.slick-active button,
+.slick-dots button:hover {
+  background-color: #ff4040;
+}
