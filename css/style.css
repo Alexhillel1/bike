@@ -207,8 +207,6 @@ body {
   max-width: 570px;
   margin-right: 60px;
 }
-.char__list {
-}
 
 .char__list:not(:last-child) {
   padding-bottom: 30px;
@@ -227,4 +225,18 @@ body {
 
 .char__img {
   align-self: center;
+}
+
+.slider {
+  margin-bottom: 50px;
+}
+
+.slider__items .slick-dots {
+  top: 0;
+  left: 0;
+}
+.slider__item {
+  padding-left: 50px;
+}
+.slider__img {
 }
